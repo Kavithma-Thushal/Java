@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d79d1d8-c1b7-469f-966e-0ab7362cb078" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/artifacts/JavaEE2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaEE2/JavaEE2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/CustomerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/index.html" beforeDir="false" />
+    <list default="true" id="fa88bb2f-4d50-4d15-b9cb-d659580a8bf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaEE2/.idea/artifacts/JavaEE2_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912/storage_v2/_src_/schema/demo.4_0uAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c805fa2-d5a3-4941-aafb-7655d22b0912/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaEE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/artifacts/JavaEE2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/JavaEE2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/JavaEE2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/production/JavaEE2/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/out/production/JavaEE2/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/src/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/src/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../schema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,50 +41,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Kavithma-Thushal&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kavithma-Thushal"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Kavithma-Thushal/Java.git&quot;,
-    &quot;accountId&quot;: &quot;35865636-7e24-49a1-9490-1d5b53d1dc40&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Kavithma-Thushal/Java.git",
+    "accountId": "35865636-7e24-49a1-9490-1d5b53d1dc40"
   }
-}</component>
+}]]></component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2vWrhlPkHLYDhbQebTjgiwsDV8L" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2vXGk5DmO7Q25ZLGjCALZVmddxY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,14 +92,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5d79d1d8-c1b7-469f-966e-0ab7362cb078" name="Changes" comment="" />
-      <created>1744271792308</created>
+      <changelist id="fa88bb2f-4d50-4d15-b9cb-d659580a8bf2" name="Changes" comment="" />
+      <created>1744284145074</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744271792308</updated>
-      <workItem from="1744271793390" duration="102000" />
-      <workItem from="1744271989726" duration="1021000" />
-      <workItem from="1744273037934" duration="261000" />
+      <updated>1744284145074</updated>
+      <workItem from="1744284146140" duration="123000" />
     </task>
     <servers />
   </component>

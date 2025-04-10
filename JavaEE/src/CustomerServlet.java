@@ -40,5 +40,6 @@ public class CustomerServlet extends HttpServlet {
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
+        response.sendRedirect("index.html");
     }
 }
