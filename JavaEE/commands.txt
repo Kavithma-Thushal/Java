@@ -1,1 +1,1 @@
-javac -cp ".\WEB-INF\lib\servlet-api.jar" -d ".\WEB-INF\classes" ".\src\CustomerServlet.java"
+javac -cp ".\web\WEB-INF\lib\servlet-api.jar" -d ".\web\WEB-INF\classes" ".\src\CustomerServlet.java"
