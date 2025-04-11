@@ -1,24 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0893939-abaa-4448-b1f4-9ffc5c82bfb5" name="Changes" comment="">
+    <list default="true" id="1bc86e42-8617-48c4-97af-dfe84198b44e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFX/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFX/JavaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/JavaFX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa/storage_v2/_src_/schema/demo.4_0uAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/486ef0c1-8ec2-4cde-ae70-36b6f98720fa/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc/storage_v2/_src_/schema/demo.4_0uAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e0521c9-911d-4a65-ab82-b08074a690bc/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/artifacts/JavaEE2_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d/storage_v2/_src_/schema/demo.4_0uAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources/edff82ed-a184-4918-ae4c-bd5e647abe9d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/JavaEE2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/JavaEE2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2_Web_exploded/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2_Web_exploded/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2_Web_exploded/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/artifacts/JavaEE2_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/out/production/JavaEE2/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/JavaFX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/JavaFX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/schema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +82,7 @@
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2vZPDU5rD6JaVt17sFaG1ow2amD" />
+  <component name="ProjectId" id="2vZT0lOomezrGJT3T1DBQ1hNLTk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,7 +94,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
@@ -82,12 +116,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c0893939-abaa-4448-b1f4-9ffc5c82bfb5" name="Changes" comment="" />
-      <created>1744349503439</created>
+      <changelist id="1bc86e42-8617-48c4-97af-dfe84198b44e" name="Changes" comment="" />
+      <created>1744351375845</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744349503439</updated>
-      <workItem from="1744349504622" duration="172000" />
+      <updated>1744351375845</updated>
+      <workItem from="1744351377161" duration="67000" />
     </task>
     <servers />
   </component>
