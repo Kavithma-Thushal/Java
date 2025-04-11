@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>JavaEE3</artifactId>
+    <artifactId>Spring+Maven</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
@@ -16,6 +16,20 @@
     </properties>
 
     <dependencies>
+        <!-- Spring Core and Context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.30</version>
+        </dependency>
+
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.30</version>
+        </dependency>
+
         <!-- Servlet API -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -24,7 +38,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- MySQL JDBC Driver -->
+        <!-- MySQL Connector -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>

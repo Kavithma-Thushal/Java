@@ -2,25 +2,42 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaEE3:war exploded" />
+      <artifact name="Spring+Maven:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec5fc5b-099e-40e1-9744-833fc13cab82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="81183bba-84ef-43b1-baf7-716f1862bc04" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b/storage_v2/_src_/schema/demo.4_0uAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/dataSources/c27972c6-d4b9-47e3-b6ae-fc0f5451be4b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/src/main/java/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE3/src/main/webapp/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +72,9 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2vZcaom3GJ8ATV1SGBB8eyIBAQT" />
+  <component name="ProjectId" id="2vZttRtwzWjYqAcVAoByJYn2Af8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,10 +86,14 @@
     "Tomcat Server.Tomcat 9.0.831.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -85,14 +106,14 @@
     <configuration name="Tomcat 9.0.831" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.831" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="JavaEE3:war exploded">
+        <artifact name="Spring+Maven:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/JavaEE3_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Spring_Maven_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="1660e9c2-c166-4df6-b669-e6debde1d5ff" />
+        <option name="BASE_DIRECTORY_NAME" value="65934fb0-2f82-4c91-a03c-54f9c810c226" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -100,7 +121,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52381" />
+        <option name="DEBUG_PORT" value="54862" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -165,7 +186,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="JavaEE3:war exploded" />
+          <artifact name="Spring+Maven:war exploded" />
         </option>
       </method>
     </configuration>
@@ -181,12 +202,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ec5fc5b-099e-40e1-9744-833fc13cab82" name="Changes" comment="" />
-      <created>1744356102405</created>
+      <changelist id="81183bba-84ef-43b1-baf7-716f1862bc04" name="Changes" comment="" />
+      <created>1744364637609</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744356102405</updated>
-      <workItem from="1744356103599" duration="104000" />
+      <updated>1744364637609</updated>
+      <workItem from="1744364639337" duration="493000" />
     </task>
     <servers />
   </component>
