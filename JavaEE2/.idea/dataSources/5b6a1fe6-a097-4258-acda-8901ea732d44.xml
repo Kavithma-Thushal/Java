@@ -998,7 +998,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="289" parent="1" name="demo">
-      <LastIntrospectionLocalTimestamp>2025-04-11.06:06:13</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-04-12.05:41:18</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="290" parent="1" name="hello_shoes">

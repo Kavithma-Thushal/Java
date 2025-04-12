@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>JavaEE+Maven</artifactId>
+    <artifactId>JavaEE_Maven</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
