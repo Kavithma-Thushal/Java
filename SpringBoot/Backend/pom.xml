@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>SpringBoot</artifactId>
+    <artifactId>Backend</artifactId>
     <version>0.0.1</version>
     <packaging>war</packaging>
     <name>SpringBoot</name>
