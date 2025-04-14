@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef33f4d1-0f02-4480-95ab-352db81749ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE+Maven/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE+Maven/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE+Maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE+Maven/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/faa8e242-e12d-41bc-9a2b-98ea4c842de8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/faa8e242-e12d-41bc-9a2b-98ea4c842de8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringBoot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SpringBoot/ServletInitializer.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/DataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/SpringBoot/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot/WebApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringBoot/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SpringBoot/ServletInitializer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +121,7 @@
       <workItem from="1744461310936" duration="5033000" />
       <workItem from="1744598377456" duration="5812000" />
       <workItem from="1744604223420" duration="8000" />
+      <workItem from="1744604274048" duration="692000" />
     </task>
     <servers />
   </component>
