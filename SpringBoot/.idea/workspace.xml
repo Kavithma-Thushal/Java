@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Frontend Added">
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/CustomerSeeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/DatabaseSeeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/WebApplication.java" afterDir="false" />
+    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Customer seeded">
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/WebApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <workItem from="1744616378302" duration="131000" />
       <workItem from="1744623910616" duration="18000" />
       <workItem from="1744623941082" duration="4000" />
-      <workItem from="1744624824632" duration="758000" />
+      <workItem from="1744624824632" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="Frontend Added">
       <option name="closed" value="true" />
@@ -131,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744616500701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Customer seeded">
+      <option name="closed" value="true" />
+      <created>1744625843485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744625843485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +142,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frontend Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend Added" />
+    <MESSAGE value="Customer seeded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer seeded" />
   </component>
 </project>
