@@ -924,7 +924,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="294" parent="1" name="demo">
-      <LastIntrospectionLocalTimestamp>2025-04-20.14:37:23</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-04-20.15:09:14</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="hello_shoes">
