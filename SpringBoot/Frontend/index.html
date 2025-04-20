@@ -40,7 +40,7 @@
             var customerData = {
                 name: $('#name').val(),
                 address: $('#address').val(),
-                salary: parseFloat($('#salary').val())
+                salary: $('#salary').val()
             };
 
             $.ajax({
@@ -53,8 +53,8 @@
                     $('#customerForm')[0].reset();
                 },
                 error: function (xhr, status, error) {
-                    console.error('Error:', error);
                     alert('Customer saved error!');
+                    console.error('Error:', error);
                 }
             });
         });
