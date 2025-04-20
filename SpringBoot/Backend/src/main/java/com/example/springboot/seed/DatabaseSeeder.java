@@ -1,4 +1,3 @@
-/*
 package com.example.springboot.seed;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +16,6 @@ public class DatabaseSeeder implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        customerSeeder.seed();
+//        customerSeeder.seed();
     }
-}*/
+}

@@ -16,10 +16,10 @@ public class CustomerSeeder {
     }
 
     public void seed() {
-        customerRepository.save(new Customer(1, "Kavithma", "Galle", 90000));
-        customerRepository.save(new Customer(2, "Kamal", "Matara", 45000));
-        customerRepository.save(new Customer(3, "Nimal", "Colombo", 120000));
-        customerRepository.save(new Customer(4, "Kumar", "Jaffna", 56000));
-        customerRepository.save(new Customer(5, "Nisal", "Kandy", 78000));
+        customerRepository.save(new Customer(0, "Kavithma", "Galle", 90000));
+        customerRepository.save(new Customer(0, "Kamal", "Matara", 45000));
+        customerRepository.save(new Customer(0, "Nimal", "Colombo", 120000));
+        customerRepository.save(new Customer(0, "Kumar", "Jaffna", 56000));
+        customerRepository.save(new Customer(0, "Nisal", "Kandy", 78000));
     }
 }
