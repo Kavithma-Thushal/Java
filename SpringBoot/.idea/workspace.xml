@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Refactored 2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Refactored 3">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/WebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/seed/CustomerSeeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/seed/CustomerSeeder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,8 @@
       <workItem from="1744628786108" duration="164000" />
       <workItem from="1744628952724" duration="43000" />
       <workItem from="1744774596039" duration="29000" />
-      <workItem from="1745156718588" duration="1956000" />
+      <workItem from="1745156718588" duration="2284000" />
+      <workItem from="1745159034215" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="Frontend Added">
       <option name="closed" value="true" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744628946206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored 3">
+      <option name="closed" value="true" />
+      <created>1745158985209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745158985209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +172,7 @@
     <MESSAGE value="Frontend Added" />
     <MESSAGE value="Customer seeded" />
     <MESSAGE value="Refactored 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored 2" />
+    <MESSAGE value="Refactored 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored 3" />
   </component>
 </project>
