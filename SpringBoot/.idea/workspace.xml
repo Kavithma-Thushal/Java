@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Refactored 5">
+    <list default="true" id="f22b4a80-33cf-43c4-a875-f9dab80aff2f" name="Changes" comment="Seeder Refactored">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1c20687d-944b-44a0-8962-237fe7fb47c7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/CustomerSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/CustomerSeeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/DatabaseSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/springboot/seed/DatabaseSeeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/com/example/springboot/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,8 @@
       <workItem from="1745156718588" duration="2284000" />
       <workItem from="1745159034215" duration="879000" />
       <workItem from="1745159983879" duration="1968000" />
-      <workItem from="1745161994381" duration="336000" />
+      <workItem from="1745161994381" duration="420000" />
+      <workItem from="1745162443277" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="Frontend Added">
       <option name="closed" value="true" />
@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745161817661</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Seeder Refactored">
+      <option name="closed" value="true" />
+      <created>1745162421887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745162421887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
     <MESSAGE value="Refactored 3" />
     <MESSAGE value="Refactored 4" />
     <MESSAGE value="Refactored 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored 5" />
+    <MESSAGE value="Seeder Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seeder Refactored" />
   </component>
 </project>
