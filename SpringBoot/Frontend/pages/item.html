@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <title>Item Management</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">SpringBoot POS System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="customer.html">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="item.html">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="order.html">PlaceOrder</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Item Form -->
+<div class="d-flex justify-content-center" style="margin-top: 110px">
+    <div class="col-5 shadow rounded p-5">
+        <form id="itemForm">
+            <h1 class="text-center mb-4">Item Management</h1>
+            <div class="mb-3">
+                <label for="description">Description</label>
+                <input id="description" name="description" type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="quantity">Quantity</label>
+                <input id="quantity" name="quantity" type="number" class="form-control" min="1" required>
+            </div>
+            <div class="mb-4">
+                <label for="unitPrice">Unit Price</label>
+                <input id="unitPrice" name="unitPrice" type="number" class="form-control" step="0.01" min="10"
+                       required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary px-5">Add</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#itemForm").submit(function (event) {
+            event.preventDefault();
+
+            const itemData = {
+                code: $("#code").val(),
+                description: $("#description").val(),
+                quantity: $("#quantity").val(),
+                unitPrice: $("#unitPrice").val()
+            }
+
+            $.ajax({
+                url: "http://localhost:8080/api/v1/item",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(itemData),
+                success: function (response) {
+                    successNotification(response.message);
+                    $("#itemForm")[0].reset();
+                },
+                error: function (error) {
+                    errorNotification(error.responseJSON.message);
+                    $("#itemForm")[0].reset();
+                }
+            });
+        });
+
+        function successNotification(message) {
+            Swal.fire({
+                text: message,
+                icon: 'success',
+                background: '#d4edda',
+                color: '#155724',
+                confirmButtonColor: '#28a745',
+                timer: 5000,
+                timerProgressBar: true,
+                position: 'top-end',
+                toast: true
+            });
+        }
+
+        function errorNotification(message) {
+            Swal.fire({
+                text: message,
+                icon: 'error',
+                background: '#f8d7da',
+                color: '#721c24',
+                confirmButtonColor: '#dc3545',
+                timer: 5000,
+                timerProgressBar: true,
+                position: 'top-end',
+                toast: true
+            });
+        }
+    });
+</script>
+</body>
+</html>

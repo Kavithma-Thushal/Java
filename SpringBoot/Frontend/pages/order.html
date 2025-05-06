@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <title>Order Management</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">SpringBoot POS System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="customer.html">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="item.html">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="order.html">PlaceOrder</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Order Form -->
+<div class="d-flex justify-content-center" style="margin-top: 110px">
+    <div class="col-10 shadow rounded p-5">
+        <form id="orderForm">
+            <h1 class="text-center mb-4">Place Order</h1>
+
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <div class="col-3">
+                    <label for="selectCustomer" class="form-label">Select Customer</label>
+                    <select id="selectCustomer" class="form-select" required>
+                        <option disabled selected>Select</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary" id="addItemBtn">Add Item</button>
+                </div>
+            </div>
+
+            <table class="table table-bordered align-middle text-center mb-4">
+                <thead class="table-dark">
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody id="orderItems"></tbody>
+            </table>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary px-5">Place Order</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest"></script>
+<script>
+    let itemList = [];
+
+    $(document).ready(function () {
+        getAllCustomers();
+        getAllItems();
+
+        $('#addItemBtn').click(function () {
+            const row = $('<tr>');
+
+            const item = $('<select class="form-select item" required></select>');
+            item.append(`<option disabled selected>Select</option>`);
+            itemList.forEach(itm => {
+                item.append(`<option value="${itm.id}" data-price="${itm.unitPrice}">${itm.description}</option>`);
+            });
+
+            const quantity = $('<input type="number" class="form-control quantity" min="1" required>');
+            const unitPrice = $('<input type="number" class="form-control unit-price" step="0.01" readonly>');
+            const total = $('<input type="number" class="form-control total" value="0.00" readonly>');
+
+            const deleteBtn = $('<button type="button" class="btn btn-danger btn-sm">Remove</button>');
+            deleteBtn.click(function () {
+                row.remove();
+            });
+
+            item.change(function () {
+                const price = $(this).find(':selected').data('price');
+                unitPrice.val(price.toFixed(2));
+                quantity.trigger('input');
+            });
+
+            quantity.on('input', function () {
+                const qty = parseInt(quantity.val()) || 0;
+                const price = parseFloat(unitPrice.val()) || 0.0;
+                total.val((qty * price).toFixed(2));
+            });
+
+            row.append($('<td>').append(item));
+            row.append($('<td>').append(quantity));
+            row.append($('<td>').append(unitPrice));
+            row.append($('<td>').append(total));
+            row.append($('<td>').append(deleteBtn));
+
+            $('#orderItems').append(row);
+        });
+
+        $('#orderForm').submit(function (e) {
+            e.preventDefault();
+
+            const orderDetails = [];
+
+            $('#orderItems tr').each(function () {
+                const itemId = $(this).find('.item').val();
+                const quantity = parseInt($(this).find('.quantity').val());
+                const unitPrice = parseFloat($(this).find('.unit-price').val());
+                const totalPrice = parseFloat($(this).find('.total').val());
+
+                orderDetails.push({itemId, quantity, unitPrice, totalPrice});
+            });
+
+            const orderData = {
+                customerId: $('#selectCustomer').val(),
+                date: new Date().toISOString().split('T')[0],
+                orderDetails
+            };
+
+            $.ajax({
+                url: "http://localhost:8080/api/v1/order",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(orderData),
+                success: function (response) {
+                    successNotification(response.message);
+                    $('#orderForm')[0].reset();
+                    $('#orderItems').empty();
+                },
+                error: function (error) {
+                    errorNotification(error.responseJSON.message);
+                }
+            });
+        });
+    });
+
+    function getAllCustomers() {
+        $.get("http://localhost:8080/api/v1/customer", function (response) {
+            response.data.forEach(customer => {
+                $('#selectCustomer').append(`<option value="${customer.id}">${customer.name}</option>`);
+            });
+        });
+    }
+
+    function getAllItems() {
+        $.get("http://localhost:8080/api/v1/item", function (response) {
+            itemList = response.data;
+        });
+    }
+
+    function successNotification(message) {
+        Swal.fire({
+            text: message,
+            icon: 'success',
+            background: '#d4edda',
+            color: '#155724',
+            confirmButtonColor: '#28a745',
+            timer: 5000,
+            timerProgressBar: true,
+            position: 'top-end',
+            toast: true
+        });
+    }
+
+    function errorNotification(message) {
+        Swal.fire({
+            text: message,
+            icon: 'error',
+            background: '#f8d7da',
+            color: '#721c24',
+            confirmButtonColor: '#dc3545',
+            timer: 5000,
+            timerProgressBar: true,
+            position: 'top-end',
+            toast: true
+        });
+    }
+</script>
+</body>
+</html>

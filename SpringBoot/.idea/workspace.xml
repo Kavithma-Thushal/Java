@@ -4,74 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260b9ccf-e7b4-4a18-8721-a97c2ed13775" name="Changes" comment="Refactored">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/658374ca-4ab7-477a-8e78-35599c7dc291.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/658374ca-4ab7-477a-8e78-35599c7dc291.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="order.html refactored 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kavithma-Thushal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KavithmaThushal&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kavithma-Thushal/Java.git",
-    "accountId": "35865636-7e24-49a1-9490-1d5b53d1dc40"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KavithmaThushal/SpringBoot.git&quot;,
+    &quot;accountId&quot;: &quot;1223d07d-dc13-4b5e-9614-1fae8637d5be&quot;
   }
-}]]></component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="2w00wyOoJUrAwQsQ2iMdOJQ0C0e" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2wGjMYCzhCSMHssT3rh94jZWyxw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.WebApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/Custom/Java/SpringBoot/Frontend",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.stickyLines&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Basitha Ishal\Desktop\Kavithma Thushal\Repository\KavithmaThushal\SpringBoot\Frontend" />
+      <recent name="C:\Users\Basitha Ishal\Desktop\Kavithma Thushal\Repository\KavithmaThushal\SpringBoot\Frontend\pages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Backend" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.WebApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.SpringBoot.WebApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springboot.*" />
+          <option name="PATTERN" value="lk.ijse.gdse66.SpringBoot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,37 +103,448 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="260b9ccf-e7b4-4a18-8721-a97c2ed13775" name="Changes" comment="" />
-      <created>1745163425154</created>
+      <changelist id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="" />
+      <created>1745232741076</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745163425154</updated>
-      <workItem from="1745163426257" duration="144000" />
+      <updated>1745232741076</updated>
+      <workItem from="1745232744888" duration="460000" />
+      <workItem from="1745674758529" duration="161000" />
+      <workItem from="1745719140283" duration="454000" />
+      <workItem from="1745720626713" duration="203000" />
+      <workItem from="1745720834252" duration="751000" />
+      <workItem from="1745732834337" duration="2045000" />
+      <workItem from="1745734902954" duration="1800000" />
+      <workItem from="1745736711642" duration="876000" />
+      <workItem from="1745737592743" duration="159000" />
+      <workItem from="1745753810039" duration="4000" />
+      <workItem from="1745753984820" duration="16000" />
+      <workItem from="1745754569571" duration="38000" />
+      <workItem from="1745754632805" duration="52000" />
+      <workItem from="1745754922052" duration="10000" />
+      <workItem from="1745755889732" duration="15000" />
+      <workItem from="1745756207948" duration="175000" />
+      <workItem from="1745756982604" duration="1905000" />
+      <workItem from="1745770846730" duration="3194000" />
+      <workItem from="1745774054379" duration="1279000" />
+      <workItem from="1745775360013" duration="528000" />
+      <workItem from="1745816229887" duration="1633000" />
+      <workItem from="1745830304735" duration="6428000" />
+      <workItem from="1745837695420" duration="728000" />
+      <workItem from="1745857513455" duration="1281000" />
+      <workItem from="1745859645955" duration="14000" />
+      <workItem from="1745859808876" duration="89000" />
+      <workItem from="1745860095322" duration="416000" />
+      <workItem from="1745860517030" duration="6000" />
+      <workItem from="1745860542363" duration="5000" />
+      <workItem from="1745894159266" duration="798000" />
+      <workItem from="1745899564276" duration="705000" />
+      <workItem from="1745901643751" duration="137000" />
+      <workItem from="1745905998848" duration="529000" />
+      <workItem from="1745936117699" duration="1172000" />
+      <workItem from="1745942152435" duration="741000" />
+      <workItem from="1745942924100" duration="72000" />
+      <workItem from="1746017286498" duration="1220000" />
+      <workItem from="1746032069904" duration="1502000" />
+      <workItem from="1746033578007" duration="409000" />
+      <workItem from="1746033995007" duration="577000" />
+      <workItem from="1746084541275" duration="3924000" />
+      <workItem from="1746088872670" duration="52000" />
+      <workItem from="1746088928032" duration="777000" />
+      <workItem from="1746089713736" duration="311000" />
+      <workItem from="1746090027676" duration="341000" />
+      <workItem from="1746090372645" duration="1484000" />
+      <workItem from="1746091887743" duration="466000" />
+      <workItem from="1746093486538" duration="601000" />
+      <workItem from="1746094095435" duration="1709000" />
+      <workItem from="1746096206682" duration="886000" />
+      <workItem from="1746097103583" duration="122000" />
+      <workItem from="1746097228560" duration="569000" />
+      <workItem from="1746097804602" duration="1134000" />
+      <workItem from="1746098961402" duration="828000" />
+      <workItem from="1746099796863" duration="295000" />
+      <workItem from="1746100094216" duration="279000" />
+      <workItem from="1746100376945" duration="78000" />
+      <workItem from="1746100457638" duration="323000" />
+      <workItem from="1746100783110" duration="237000" />
+      <workItem from="1746101023016" duration="956000" />
+      <workItem from="1746102054684" duration="1727000" />
+      <workItem from="1746104114329" duration="291000" />
+      <workItem from="1746113812764" duration="399000" />
+      <workItem from="1746234295957" duration="464000" />
+      <workItem from="1746234764749" duration="610000" />
+      <workItem from="1746235384038" duration="347000" />
+      <workItem from="1746235740423" duration="1181000" />
+      <workItem from="1746237245074" duration="411000" />
+      <workItem from="1746237659186" duration="1605000" />
+      <workItem from="1746239269368" duration="1693000" />
+      <workItem from="1746240969430" duration="1275000" />
+      <workItem from="1746242257587" duration="2290000" />
+      <workItem from="1746244716277" duration="877000" />
+      <workItem from="1746245597015" duration="642000" />
+      <workItem from="1746246253605" duration="137000" />
+      <workItem from="1746246393716" duration="2255000" />
+      <workItem from="1746248828444" duration="306000" />
     </task>
-    <task id="LOCAL-00001" summary="Refactored">
+    <task id="LOCAL-00001" summary="Entity Refactored">
       <option name="closed" value="true" />
-      <created>1745163570689</created>
+      <created>1745720782348</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1745163570689</updated>
+      <updated>1745720782348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Validation Added">
+      <option name="closed" value="true" />
+      <created>1745736695042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745736695042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Notification Added">
+      <option name="closed" value="true" />
+      <created>1745737573967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745737573967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1745756372691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745756372692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Item added successfully using frontend">
+      <option name="closed" value="true" />
+      <created>1745774036038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745774036038</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Navbar Added">
+      <option name="closed" value="true" />
+      <created>1745775318553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745775318553</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Navbar Moded">
+      <option name="closed" value="true" />
+      <created>1745775879994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745775879994</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Orders and OrderDetails Added">
+      <option name="closed" value="true" />
+      <created>1745837684038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745837684038</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1745858739480</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745858739480</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactored 2">
+      <option name="closed" value="true" />
+      <created>1745860502219</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745860502219</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactored 3">
+      <option name="closed" value="true" />
+      <created>1745900297060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745900297060</updated>
+    </task>
+    <task id="LOCAL-00012" summary="All DTOs added">
+      <option name="closed" value="true" />
+      <created>1745942125306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745942125306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Order placed successfully!">
+      <option name="closed" value="true" />
+      <created>1746033562776</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746033562776</updated>
+    </task>
+    <task id="LOCAL-00014" summary="OrderDetailRepository.java Added">
+      <option name="closed" value="true" />
+      <created>1746033976585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746033976585</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Order places successfully!">
+      <option name="closed" value="true" />
+      <created>1746088848989</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746088848989</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Order places successfully!">
+      <option name="closed" value="true" />
+      <created>1746088896563</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746088896563</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Order places successfully!">
+      <option name="closed" value="true" />
+      <created>1746088916285</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746088916285</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Order places successfully! 2">
+      <option name="closed" value="true" />
+      <created>1746089697702</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1746089697702</updated>
+    </task>
+    <task id="LOCAL-00019" summary="@Transaction Added">
+      <option name="closed" value="true" />
+      <created>1746090018140</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746090018140</updated>
+    </task>
+    <task id="LOCAL-00020" summary="@Transaction Added 2">
+      <option name="closed" value="true" />
+      <created>1746090255984</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746090255984</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1746094075030</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746094075030</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Place Order Frontend Added">
+      <option name="closed" value="true" />
+      <created>1746097084260</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746097084260</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1746097217789</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746097217789</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ordered item quantity decreased from item table">
+      <option name="closed" value="true" />
+      <created>1746097792212</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1746097792212</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1746098922445</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746098922445</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactored 2">
+      <option name="closed" value="true" />
+      <created>1746099784408</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746099784408</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Refactored 3">
+      <option name="closed" value="true" />
+      <created>1746100078550</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1746100078550</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Refactored 4">
+      <option name="closed" value="true" />
+      <created>1746100363850</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1746100363850</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Get all customers successfully!">
+      <option name="closed" value="true" />
+      <created>1746100767255</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1746100767255</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Get all items successfully!">
+      <option name="closed" value="true" />
+      <created>1746101009463</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1746101009463</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Get by id added for customers and items">
+      <option name="closed" value="true" />
+      <created>1746101969789</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1746101969789</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Place Order Frontend Updated">
+      <option name="closed" value="true" />
+      <created>1746103776198</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1746103776198</updated>
+    </task>
+    <task id="LOCAL-00033" summary="order.html Added">
+      <option name="closed" value="true" />
+      <created>1746234748613</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1746234748613</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1746235363861</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1746235363861</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Refactored 2">
+      <option name="closed" value="true" />
+      <created>1746237176851</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1746237176851</updated>
+    </task>
+    <task id="LOCAL-00036" summary="order.html refactored">
+      <option name="closed" value="true" />
+      <created>1746239252380</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746239252380</updated>
+    </task>
+    <task id="LOCAL-00037" summary="order.html refactored 2">
+      <option name="closed" value="true" />
+      <created>1746240962531</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1746240962531</updated>
+    </task>
+    <task id="LOCAL-00038" summary="order.html refactored 3">
+      <option name="closed" value="true" />
+      <created>1746242231607</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1746242231607</updated>
+    </task>
+    <task id="LOCAL-00039" summary="order.html refactored 4">
+      <option name="closed" value="true" />
+      <created>1746246383889</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1746246383889</updated>
+    </task>
+    <task id="LOCAL-00040" summary="order.html refactored 5">
+      <option name="closed" value="true" />
+      <created>1746248764033</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1746248764033</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Navbar Moded" />
+    <MESSAGE value="Orders and OrderDetails Added" />
+    <MESSAGE value="All DTOs added" />
+    <MESSAGE value="Order placed successfully!" />
+    <MESSAGE value="OrderDetailRepository.java Added" />
+    <MESSAGE value="Order places successfully!" />
+    <MESSAGE value="Order places successfully! 2" />
+    <MESSAGE value="@Transaction Added" />
+    <MESSAGE value="@Transaction Added 2" />
+    <MESSAGE value="Place Order Frontend Added" />
+    <MESSAGE value="ordered item quantity decreased from item table" />
+    <MESSAGE value="Refactored 3" />
+    <MESSAGE value="Refactored 4" />
+    <MESSAGE value="Get all customers successfully!" />
+    <MESSAGE value="Get all items successfully!" />
+    <MESSAGE value="Get by id added for customers and items" />
+    <MESSAGE value="Place Order Frontend Updated" />
+    <MESSAGE value="order.html Added" />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="Refactored 2" />
+    <MESSAGE value="order.html refactored" />
+    <MESSAGE value="order.html refactored 2" />
+    <MESSAGE value="order.html refactored 3" />
+    <MESSAGE value="order.html refactored 4" />
+    <MESSAGE value="order.html refactored 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="order.html refactored 5" />
   </component>
 </project>
