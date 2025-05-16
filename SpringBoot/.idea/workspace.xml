@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="order.html refactored 5">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/ItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/OrderDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/dto/OrderDetailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/dto/ItemDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" afterDir="false" />
-    </list>
+    <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="Refactored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +197,7 @@
       <workItem from="1746949655898" duration="2000" />
       <workItem from="1747373382862" duration="50000" />
       <workItem from="1747374309748" duration="1223000" />
-      <workItem from="1747379589181" duration="2417000" />
+      <workItem from="1747379589181" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="Entity Refactored">
       <option name="closed" value="true" />
@@ -540,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746248764033</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1747383321283</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747383321283</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,13 +555,13 @@
     <MESSAGE value="Get by id added for customers and items" />
     <MESSAGE value="Place Order Frontend Updated" />
     <MESSAGE value="order.html Added" />
-    <MESSAGE value="Refactored" />
     <MESSAGE value="Refactored 2" />
     <MESSAGE value="order.html refactored" />
     <MESSAGE value="order.html refactored 2" />
     <MESSAGE value="order.html refactored 3" />
     <MESSAGE value="order.html refactored 4" />
     <MESSAGE value="order.html refactored 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="order.html refactored 5" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
 </project>
