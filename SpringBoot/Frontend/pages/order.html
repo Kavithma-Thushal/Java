@@ -86,7 +86,7 @@
         $('#addItemBtn').click(function () {
             const row = $('<tr>');
 
-            const item = $('<select class="form-select item" required></select>');
+            const item = $('<select class="form-select select-item" required></select>');
             item.append(`<option disabled selected>Select</option>`);
             itemList.forEach(itm => {
                 item.append(`<option value="${itm.id}" data-price="${itm.unitPrice}">${itm.description}</option>`);
@@ -94,7 +94,7 @@
 
             const quantity = $('<input type="number" class="form-control quantity" min="1" required>');
             const unitPrice = $('<input type="number" class="form-control unit-price" step="0.01" readonly>');
-            const total = $('<input type="number" class="form-control total" value="0.00" readonly>');
+            const total = $('<input type="number" class="form-control total-price" readonly>');
 
             const deleteBtn = $('<button type="button" class="btn btn-danger btn-sm">Remove</button>');
             deleteBtn.click(function () {
@@ -108,8 +108,8 @@
             });
 
             quantity.on('input', function () {
-                const qty = parseInt(quantity.val()) || 0;
-                const price = parseFloat(unitPrice.val()) || 0.0;
+                const qty = parseInt(quantity.val());
+                const price = parseFloat(unitPrice.val());
                 total.val((qty * price).toFixed(2));
             });
 
@@ -128,12 +128,12 @@
             const orderDetails = [];
 
             $('#orderItems tr').each(function () {
-                const itemId = $(this).find('.item').val();
+                const itemId = $(this).find('.select-item').val();
                 const quantity = parseInt($(this).find('.quantity').val());
                 const unitPrice = parseFloat($(this).find('.unit-price').val());
-                const totalPrice = parseFloat($(this).find('.total').val());
+                const total = parseFloat($(this).find('.total-price').val());
 
-                orderDetails.push({itemId, quantity, unitPrice, totalPrice});
+                orderDetails.push({itemId, quantity, unitPrice, total});
             });
 
             const orderData = {
