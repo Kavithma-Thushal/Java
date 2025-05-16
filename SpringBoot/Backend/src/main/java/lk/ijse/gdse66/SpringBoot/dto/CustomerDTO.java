@@ -19,6 +19,6 @@ public class CustomerDTO {
     @Pattern(regexp = "^[A-Za-z\\s'-]{4,}$", message = "Address must contain at least 4 letters!")
     private String address;
 
-    @Min(value = 1000, message = "Salary must be at least 4 digits!")
+    @Min(value = 1000, message = "Salary must contain at least 4 digits!")
     private double salary;
 }

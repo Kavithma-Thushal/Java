@@ -5,9 +5,17 @@
       <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Custom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+Maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+Maven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Kavithma-Thushal/Java.git&quot;,
-    &quot;accountId&quot;: &quot;35865636-7e24-49a1-9490-1d5b53d1dc40&quot;
+    &quot;accountId&quot;: &quot;b5fa15d0-a4f0-4998-88ab-77174572207e&quot;
   }
 }</component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -52,9 +60,9 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/Custom/Java/JavaFX/mysql-connector-java-8.0.28.jar&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -66,8 +74,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -81,6 +89,8 @@
       <updated>1744350519713</updated>
       <workItem from="1744350520862" duration="99000" />
       <workItem from="1744436138115" duration="38000" />
+      <workItem from="1746936219438" duration="91000" />
+      <workItem from="1746949647390" duration="2000" />
     </task>
     <servers />
   </component>

@@ -19,13 +19,13 @@ public class OrderDetail {
 
     @ManyToOne
     @NotNull
+    private Order order;
+
+    @ManyToOne
+    @NotNull
     private Item item;
 
     private int quantity;
     private double unitPrice;
     private double total;
-
-    @ManyToOne
-    @NotNull
-    private Order order;
 }
