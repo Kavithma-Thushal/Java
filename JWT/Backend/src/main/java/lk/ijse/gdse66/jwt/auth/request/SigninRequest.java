@@ -1,6 +1,5 @@
 package lk.ijse.gdse66.jwt.auth.request;
 
-import lk.ijse.gdse66.jwt.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,9 +7,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class SignupRequest {
-    private String name;
+public class SigninRequest {
     private String email;
     private String password;
-    private String role;
 }

@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="Refactored 3">
-      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JWT/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JWT/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" afterDir="false" />
+    <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="Refactored 4">
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/config/JWTFilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/util/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JWT/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/response/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/response/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Backend/src/main/java/lk/ijse/gdse66/jwt/util/ResponseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +227,9 @@
       <workItem from="1747417579613" duration="351000" />
       <workItem from="1747418217247" duration="19000" />
       <workItem from="1747418446029" duration="512000" />
-      <workItem from="1747453796742" duration="332000" />
+      <workItem from="1747453796742" duration="2726000" />
+      <workItem from="1747460174718" duration="2750000" />
+      <workItem from="1747476065554" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Entity Refactored">
       <option name="closed" value="true" />
@@ -563,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747416835053</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Refactored 4">
+      <option name="closed" value="true" />
+      <created>1747460153204</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1747460153204</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +604,6 @@
     <MESSAGE value="@Transaction Added 2" />
     <MESSAGE value="Place Order Frontend Added" />
     <MESSAGE value="ordered item quantity decreased from item table" />
-    <MESSAGE value="Refactored 4" />
     <MESSAGE value="Get all customers successfully!" />
     <MESSAGE value="Get all items successfully!" />
     <MESSAGE value="Get by id added for customers and items" />
@@ -598,6 +617,7 @@
     <MESSAGE value="Refactored" />
     <MESSAGE value="Refactored 2" />
     <MESSAGE value="Refactored 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored 3" />
+    <MESSAGE value="Refactored 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored 4" />
   </component>
 </project>

@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fbb466a-7129-41cb-a492-531a2bb082a2" name="Changes" comment="Customer saved successfully!">
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/request/SigninRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/filter/JWTAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/util/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/response/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/auth/response/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/util/ResponseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,6 +86,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/My/Java/JWT/Backend/src/main/java/lk/ijse/gdse66/jwt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,6 +104,14 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Workspace\My\Java\JWT\Backend\src\main\java\lk\ijse\gdse66\jwt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.gdse66.jwt.auth.request" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Backend" />
@@ -124,7 +151,11 @@
       <workItem from="1747417976154" duration="318000" />
       <workItem from="1747418302774" duration="657000" />
       <workItem from="1747419015858" duration="74000" />
-      <workItem from="1747452644540" duration="1079000" />
+      <workItem from="1747452644540" duration="8418000" />
+      <workItem from="1747464151189" duration="6797000" />
+      <workItem from="1747479829037" duration="1040000" />
+      <workItem from="1747480874952" duration="1689000" />
+      <workItem from="1747483141917" duration="938000" />
     </task>
     <task id="LOCAL-00001" summary="JWT added">
       <option name="closed" value="true" />

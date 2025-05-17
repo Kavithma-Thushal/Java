@@ -1,5 +1,6 @@
 package lk.ijse.gdse66.jwt.controller;
 
+import lk.ijse.gdse66.jwt.auth.request.SigninRequest;
 import lk.ijse.gdse66.jwt.auth.request.SignupRequest;
 import lk.ijse.gdse66.jwt.auth.response.AuthResponse;
 import lk.ijse.gdse66.jwt.service.AuthService;
@@ -16,7 +17,12 @@ public class AuthController {
     private AuthService authService;
 
     @PostMapping("/signup")
-    public ResponseEntity<AuthResponse> signUp(@RequestBody SignupRequest signupRequest){
+    public ResponseEntity<AuthResponse> signup(@RequestBody SignupRequest signupRequest) {
         return ResponseEntity.ok(authService.signup(signupRequest));
+    }
+
+    @PostMapping("/signin")
+    public ResponseEntity<AuthResponse> signin(@RequestBody SigninRequest signinRequest) {
+        return ResponseEntity.ok(authService.signin(signinRequest));
     }
 }
