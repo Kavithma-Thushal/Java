@@ -928,7 +928,7 @@
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <Current>1</Current>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-05-17.13:23:54</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-05-17.13:53:57</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="hello_shoes">
