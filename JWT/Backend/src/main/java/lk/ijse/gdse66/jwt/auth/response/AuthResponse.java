@@ -1,14 +1,13 @@
 package lk.ijse.gdse66.jwt.auth.response;
 
-import lk.ijse.gdse66.jwt.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 @Builder
 public class AuthResponse {
     private String token;

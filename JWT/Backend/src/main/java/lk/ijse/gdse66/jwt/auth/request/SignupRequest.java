@@ -1,13 +1,12 @@
 package lk.ijse.gdse66.jwt.auth.request;
 
-import lk.ijse.gdse66.jwt.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class SignupRequest {
     private String name;
     private String email;

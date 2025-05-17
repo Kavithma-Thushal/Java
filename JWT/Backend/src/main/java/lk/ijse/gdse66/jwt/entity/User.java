@@ -12,9 +12,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.HashSet;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 
 @Entity
 public class User implements UserDetails {
