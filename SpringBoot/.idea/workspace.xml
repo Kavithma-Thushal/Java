@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99a5860-1809-4946-b577-83a852b24796" name="Changes" comment="Refactored 5">
+      <change afterPath="$PROJECT_DIR$/../JWT/Frontend/pages/customer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWT/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/Frontend/pages/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/Frontend/pages/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +224,7 @@
       <workItem from="1747496230896" duration="34000" />
       <workItem from="1747496563656" duration="472000" />
       <workItem from="1747497542625" duration="96000" />
+      <workItem from="1747498974604" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="Entity Refactored">
       <option name="closed" value="true" />
