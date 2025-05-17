@@ -59,7 +59,7 @@
                 successNotification("User registered successfully!")
                 $("#signupForm")[0].reset();
             },
-            error: function () {
+            error: function (error) {
                 errorNotification("Registration failed!")
                 $("#signupForm")[0].reset();
             }

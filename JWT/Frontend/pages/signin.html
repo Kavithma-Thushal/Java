@@ -55,7 +55,7 @@
                 successNotification("User logged successfully!")
                 $("#signinForm")[0].reset();
             },
-            error: function () {
+            error: function (error) {
                 errorNotification("Invalid conditionals!")
                 $("#signinForm")[0].reset();
             }

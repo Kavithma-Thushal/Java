@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fbb466a-7129-41cb-a492-531a2bb082a2" name="Changes" comment="JWT updated 2">
-      <change afterPath="$PROJECT_DIR$/Frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/pages/signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/pages/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2fbb466a-7129-41cb-a492-531a2bb082a2" name="Changes" comment="Frontend Added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +88,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IJSE\Workspace\My\Java\JWT\Backend\src\main\java\lk\ijse\gdse66\jwt" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Workspace\My\Java\JWT\Frontend\pages" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lk.ijse.gdse66.jwt.auth.request" />
     </key>
@@ -146,7 +143,7 @@
       <workItem from="1747486912856" duration="12000" />
       <workItem from="1747486936427" duration="1371000" />
       <workItem from="1747488322661" duration="673000" />
-      <workItem from="1747488997796" duration="1014000" />
+      <workItem from="1747488997796" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="JWT added">
       <option name="closed" value="true" />
@@ -180,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747488298534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Frontend Added">
+      <option name="closed" value="true" />
+      <created>1747490510319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747490510319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +196,7 @@
     <MESSAGE value="Customer saved successfully!" />
     <MESSAGE value="JWT Added" />
     <MESSAGE value="JWT updated 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT updated 2" />
+    <MESSAGE value="Frontend Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend Added" />
   </component>
 </project>
