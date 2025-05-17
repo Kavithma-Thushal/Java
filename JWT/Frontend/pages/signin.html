@@ -58,7 +58,7 @@
                 $("#signinForm")[0].reset();
             },
             error: function (error) {
-                errorNotification("Invalid conditionals!")
+                errorNotification(error.responseJSON.message)
                 $("#signinForm")[0].reset();
             }
         });
