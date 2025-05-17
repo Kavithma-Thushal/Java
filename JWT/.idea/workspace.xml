@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fbb466a-7129-41cb-a492-531a2bb082a2" name="Changes" comment="JWT added">
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/CustomerController.java" afterDir="false" />
+    <list default="true" id="2fbb466a-7129-41cb-a492-531a2bb082a2" name="Changes" comment="Customer saved successfully!">
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/lk/ijse/gdse66/jwt/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f03f044-8cdb-44ff-b268-7c0f0f1089df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +42,8 @@
     &quot;accountId&quot;: &quot;b5fa15d0-a4f0-4998-88ab-77174572207e&quot;
   }
 }</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:/xampp/php/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -113,7 +122,9 @@
       <updated>1746529520001</updated>
       <workItem from="1746529521250" duration="2322000" />
       <workItem from="1747417976154" duration="318000" />
-      <workItem from="1747418302774" duration="550000" />
+      <workItem from="1747418302774" duration="657000" />
+      <workItem from="1747419015858" duration="74000" />
+      <workItem from="1747452644540" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="JWT added">
       <option name="closed" value="true" />
@@ -123,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747418282413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Customer saved successfully!">
+      <option name="closed" value="true" />
+      <created>1747418935135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747418935135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JWT added" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT added" />
+    <MESSAGE value="Customer saved successfully!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer saved successfully!" />
   </component>
 </project>

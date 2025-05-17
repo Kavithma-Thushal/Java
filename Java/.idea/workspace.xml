@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b0b7ea5-e345-473a-8328-cdbae3a20e1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Custom/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Custom/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Custom/.idea/dataSources/b263df07-fd9d-401b-83c6-2138ce9b932f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Custom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Custom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFX/out/production/JavaFX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JWT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBoot/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/Backend/target/classes/lk/ijse/gdse66/SpringBoot/entity/OrderDetail.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +83,7 @@
       <workItem from="1744436074623" duration="59000" />
       <workItem from="1746936140975" duration="67000" />
       <workItem from="1746949642162" duration="2000" />
+      <workItem from="1747419269371" duration="277000" />
     </task>
     <servers />
   </component>
