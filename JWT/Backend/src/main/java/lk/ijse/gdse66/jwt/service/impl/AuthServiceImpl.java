@@ -52,7 +52,8 @@ public class AuthServiceImpl implements AuthService {
     @Override
     public AuthResponse signin(SigninRequest signinRequest) {
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(signinRequest.getEmail(), signinRequest.getPassword()));
-        User user = userRepository.findByEmail(signinRequest.getEmail()).orElseThrow(() -> new RuntimeException("User not found!"));
+        User user = userRepository.findByEmail(signinRequest.getEmail())
+                .orElseThrow(() -> new RuntimeException("User not found!"));
         String generatedToken = jwtService.generateToken(user);
         return AuthResponse.builder().token(generatedToken).build();
     }
