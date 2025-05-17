@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDate;
 import java.util.List;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class OrderDTO {
     private int id;
     private int customerId;
